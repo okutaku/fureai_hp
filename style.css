@@ -99,3 +99,11 @@ header nav ul li a:hover{
   display: flex;
   flex-direction: column
 }
+
+footer{
+  background: black;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
