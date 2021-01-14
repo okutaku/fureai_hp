@@ -6,7 +6,7 @@ body{
 }
 
 .header-title{
-  padding: 0px 60px;
+  padding: 0px 30px;
   background-color:red;
   display: flex;
   justify-content: space-between;
@@ -28,6 +28,8 @@ nav{
 }
 
 header nav ul {
+  margin:0;
+  padding:0;
   height: 60px;
   list-style: none;
   display: flex;
@@ -47,4 +49,53 @@ header nav ul li a{
 header nav ul li a:hover{
   color:orange;
   transition: all 0.3s;
+}
+
+.firstview{
+  height: 664px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./img/fureai_top.png");
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.f_con{
+  height: auto;
+  width: auto;
+  color: white;
+  z-index: 2;
+}
+
+.f_con span {
+  color:blue;
+  font-size: 12;
+}
+
+.f_con h2 {
+  font-size: 60px;
+  color: blue;
+}
+
+.aboutme{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.maincontainer{
+  width: 70%;
+  background-color: red;
+  display: flex;
+  flex-direction: column
+}
+
+.subcontainer{
+  width: 30%;
+  background-color: blue;
+  display: flex;
+  flex-direction: column
 }
