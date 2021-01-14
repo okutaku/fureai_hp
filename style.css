@@ -7,7 +7,8 @@ body{
 
 .header-title{
   padding: 0px 30px;
-  background-color:red;
+  background-color:white;
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +16,7 @@ body{
 
 .access{
   font-size: 14px;
-  background-color:pink;
+  background-color:white;
   width: 20%;
   display: flex;
   justify-content: space-around;
@@ -24,7 +25,7 @@ body{
 nav{
   height: 60px;
   width: 100%;
-  background-color:orange;
+  background-color:rgb(130, 180, 245);
 }
 
 header nav ul {
@@ -43,7 +44,7 @@ header nav ul li{
 
 header nav ul li a{
   text-decoration: none;
-  color:black;
+  color:white;
 }
 
 header nav ul li a:hover{
@@ -70,14 +71,9 @@ header nav ul li a:hover{
   z-index: 2;
 }
 
-.f_con span {
-  color:blue;
-  font-size: 12;
-}
-
 .f_con h2 {
   font-size: 60px;
-  color: blue;
+  color: rgb(130, 180, 245);
 }
 
 .aboutme{
@@ -88,20 +84,33 @@ header nav ul li a:hover{
 
 .maincontainer{
   width: 70%;
-  background-color: red;
+  margin: 10px;
+  padding:5px;
+  border: 1px solid rgb(130, 180, 245);
+  border-radius: 3px;
   display: flex;
   flex-direction: column
 }
 
+h3, h4{
+  border-bottom: 1px solid rgb(130, 180, 245);
+}
+
+
+
 .subcontainer{
   width: 30%;
-  background-color: blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding:5px;
+  border: 1px solid rgb(130, 180, 245);
+  border-radius: 3px;
   display: flex;
   flex-direction: column
 }
 
 footer{
-  background: black;
+  background: rgb(130, 180, 245);
   width: 100%;
   color: white;
   display: flex;
