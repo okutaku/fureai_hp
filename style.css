@@ -1,0 +1,50 @@
+@charset"utf-8";
+
+body{
+  margin: 0;
+  width: 100%;
+}
+
+.header-title{
+  padding: 0px 60px;
+  background-color:red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.access{
+  font-size: 14px;
+  background-color:pink;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav{
+  height: 60px;
+  width: 100%;
+  background-color:orange;
+}
+
+header nav ul {
+  height: 60px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header nav ul li{
+  margin-left: 20px;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color:black;
+}
+
+header nav ul li a:hover{
+  color:orange;
+  transition: all 0.3s;
+}
